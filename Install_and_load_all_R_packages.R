@@ -2,7 +2,7 @@
 packages <- c("dplyr", "statip", "moments", "corrplot", "randomForest", 
               "data.table", "ggplot2", "doParallel", "caret", "glmnet", 
               "elasticnet", "gbm", "e1071", "nnet", "frbs", "pls", 
-              "xgboost", "monomvn", "kedd")
+              "xgboost", "monomvn", "kedd","skimr")
 
 # Function to install packages if they are not already installed
 install_if_missing <- function(p) {
