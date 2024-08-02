@@ -18,7 +18,7 @@ factors
 
 ## Algorithm 3: Calculation of Bandwidth (bw) for Synthetic Samples with Fixed Kernel
 
-Ker = "triweight"
+Ker = "gaussian" # see ?kernel.fun of any kernel function (kernel = "gaussian","epanechnikov", "uniform", "triangular", "triweight", "tricube", "biweight", "cosine", "silverman")
 bw <- sapply(seq_along(samples_bootstrap), function(i) 
   MISE_bw(samples_bootstrap[[i]], kernel = Ker))
 bw
