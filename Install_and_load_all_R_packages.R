@@ -1,3 +1,4 @@
+options(digits = 5, digits.secs = 6,scipen = -2)
 # List of packages to install and load
 packages <- c("dplyr", "statip", "moments", "corrplot", "randomForest", 
               "data.table", "ggplot2", "doParallel", "caret", "glmnet", 
